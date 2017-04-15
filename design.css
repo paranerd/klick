@@ -1,0 +1,109 @@
+body {
+	background-color: lightblue;
+	font-family: 'Arial';
+}
+
+#scorediv {
+	position: absolute;
+	top: 40px;
+	left: 40px;
+	color: rgba(255,255,255,0.9);
+	font-size: 44px;
+}
+
+#highscorediv {
+	position: absolute;
+	top: 40px;
+	right: 40px;
+	color: rgba(255,255,255,0.9);
+	font-size: 44px;
+}
+
+#container {
+	position: absolute;
+	padding: 10px;
+	background-color: lightblue;
+	border: 3px solid #EEEEEE;
+	border-radius: 25px;
+}
+
+#restart {
+	position: absolute;
+	float: left;
+	bottom: 5%;
+	left: 50px;
+	height: 60px;
+	width: 150px;
+	background-color: rgba(255,255,255,0.7);
+	text-align: center;
+	line-height: 60px;
+	font-weight: bold;
+	color: grey;
+	border-radius: 4px;
+}
+
+#restart:hover {
+	cursor: pointer;
+	background-color: rgba(255,255,255,0.9);
+}
+
+#modediv {
+	position: absolute;
+	bottom: 5%;
+	left: 230px;
+	width: 150px;
+	height: 60px;
+	color: grey;
+	background-color: rgba(255,255,255,0.7);
+	line-height: 60px;
+	font-weight: bold;
+	text-align: center;
+	border-radius: 4px;
+}
+
+#modediv:hover {
+	cursor: pointer;
+	background-color: rgba(255,255,255,0.9);
+}
+
+.elem {
+	height: 50px;
+	width: 50px;
+	float: left;
+	background-color: red;
+	border-radius: 25px;
+	border: 1px solid rgba(0,0,0,0.3);
+	margin: 0.5px;
+}
+
+#gameOver {
+	position: absolute;
+	top: 5%;
+	height: 100px;
+	width: 300px;
+	text-align: center;
+	font-size: 26px;
+	padding: 20px;
+}
+
+#restartHover {
+	position: absolute;
+	padding: 10px;
+	text-align: center;
+	border: 3px solid #EEEEEE;
+	border-radius: 10px;
+	background-color: rgba(255,255,255,0.7);
+	font-size: 24px;
+	font-weight: bold;
+	color: grey;
+}
+
+#restartHover:hover {
+	cursor: pointer;
+	background-color: rgba(255,255,255,0.8);
+	color: grey;
+}
+
+.hidden {
+	display: none;
+}
